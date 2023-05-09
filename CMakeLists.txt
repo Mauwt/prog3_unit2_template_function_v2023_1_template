@@ -19,7 +19,7 @@ file(GLOB source_files
 
 add_executable(${PROJECT_NAME}
         ${source_files}
-    )
+        src/ejercicio2.h)
 
 if(UNIX AND NOT APPLE)
     find_package(TBB)
